@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "孕产期全面护理指南",
   description: "一份详细的孕产期护理指南",
+  base:'/PregnancyGuide/',
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
   ],
@@ -69,7 +70,6 @@ export default defineConfig({
   },
   srcDir: '.',
   outDir: './dist',
-  base: '/',
   appearance: true,
   lastUpdated: false
 })
